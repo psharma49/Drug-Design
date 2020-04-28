@@ -28,6 +28,7 @@ Data for 324 drug conditions i.e. drugs with different doses and 3979 genes have
 Interaction score < -0.5 signifies synergy  while interaction score > 1 signify antagony.
 
 Two different approaches-
+
 1.Since interaction score were provided, it is naturally a Regression task in terms of machine learning.
 
 2. But since synergy and antagony can be defined from the interaction score in terms of range, it can be seen as a potential classification task also. 
