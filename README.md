@@ -24,11 +24,13 @@ Drug interaction data of 15 drugs in pairwise combination and 72 drugs in pairwi
 It is obtained by comparing the interaction of antibiotic with strain of E.coli, obtained after deleting that gene and that of wild-strain E.coli. The difference in interaction score provides information regarding sensitivity or resistivity between antibiotic and gene.
 
 Data for 324 drug conditions i.e. drugs with different doses and 3979 genes have been obtained. 
-Interaction score < -0.5 signifies synergy 
-while interaction score > 1 signify antagony.
+Interaction score < -0.5 signifies synergy  while interaction score > 1 signify antagony.
+
 Two different approaches-
 1.Since interaction score were provided, it is naturally a Regression task in terms of machine learning.
+
 2. But since synergy and antagony can be defined from the interaction score in terms of range, it can be seen as a potential classification task also. 
+
 We implemented both these approaches, Regression and Classification
 
  
